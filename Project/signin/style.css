@@ -1,0 +1,80 @@
+img {
+    width: 40%;
+    display: block;
+    margin: 30px auto;
+    border-radius: 150px;
+}
+.F1 {
+    background-color: blue;
+    text-align: center;
+    font-family: calibri;
+    border-radius: 30px;
+    padding: 20px;
+    width: 25%;
+    margin: 20px auto;
+    font-weight: 900;
+    cursor: pointer;
+    color: white;
+}
+.S1 {
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: w;
+}
+.A1 {
+    background-color: black;
+    text-align: center;
+    font-family: calibri;
+    border-radius: 30px;
+    padding: 20px;
+    width: 25%;
+    margin: 20px auto;
+    font-weight: 900;
+    cursor: pointer;
+    color: white;
+}
+.G1 {
+    background-color: white;
+    text-align: center;
+    font-family: calibri;
+    border-radius: 30px;
+    padding: 20px;
+    width: 25%;
+    margin: 20px auto;
+    font-weight: 900;
+    cursor: pointer;
+    color: gray;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.P1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+}
+a {
+    background-color: black;
+    text-align: center;
+    font-family: calibri;
+    border-radius: 30px;
+    padding: 20px;
+    width: 25%;
+    margin: 20px auto;
+    font-weight: 900;
+    cursor: pointer;
+    color: white;
+}
+.home {
+    background-color: black;
+    text-align: center;
+    font-family: calibri;
+    border-radius: 30px;
+    padding: 20px;
+    width: 25%;
+    font-weight: 900;
+    cursor: pointer;
+    color: white;
+    margin: 0 auto;
+}

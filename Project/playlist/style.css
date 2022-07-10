@@ -1,0 +1,207 @@
+
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    background-color: #121212;
+    width: 1200px;
+    height:1000px;   
+    position: absolute;
+}
+.apple{
+    display: flex;
+    width: 742px;
+    height: 40px;
+    padding: 24px 16px;
+}
+.daupart {
+    background-color: rgba(0, 0, 0, 0.123);
+    width: 1711px;
+    height: 500px;
+   position: relative;
+   top: 0px;
+   left: 0px;
+   border: 0;
+    margin: 0;
+    padding: 0;
+} 
+.cá{
+    font-size: 72px;
+    color: black;
+    font-family: "Roboto Condensed script=latin rev=1";
+    font-weight: 1000;
+    position: absolute;
+    top: 160px;
+    left:200px ;
+}
+.container{
+    width: 75%;
+    display: flex;
+    position: relative;
+    top:-20px;
+    left: 30px;
+    
+}
+.container:hover{
+    background-color: rgba(255,255,255,.3);
+}
+.aa{
+    color: gray; 
+}
+img{
+    width: 50px;
+    padding: 0px;
+    padding-top: 10px;
+}
+.above{
+    color: rgb(238, 227, 227);
+    padding: 10px 20px;
+}
+.below{
+      color:white;
+}
+.middle{            
+    color: gray;
+}
+.right{
+    color: #1ed760;
+    padding: 10px 15px;
+
+}
+.rightside{
+    color: gray;
+    padding: 10px 10px;
+}
+.view{
+    color: gray;
+    padding: 5px 65px;
+}
+.box1{
+    flex-grow: 0;
+    padding: 10px 20px;
+
+}
+.box2 {
+    flex-grow: 1;
+    display: flex
+}
+.box3 {
+    flex-grow: 2;
+    display: flex;
+    padding: 10px 100px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.box4 {flex-grow: 0;}
+.button{
+    background-color: transparent;
+    border: 1px solid rgba(255,255,255,.3);
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .1em;
+    line-height: 16px;
+    padding: 7px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top:0;
+    left:110px ;
+}
+.title{
+    padding: 8px 20px;
+    box-sizing: border-box;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: var(--text-base,#ffffff);
+}
+.circle {
+    background-color: #1ed760;
+    border-radius: 100%;
+    width: 56px;
+    height: 56px;
+}
+.Button1{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top:-40px;
+    left: 10px;
+}
+.path{
+    width: 28px;
+    height: 28px;
+}
+.period{
+    position: relative;
+    top: -130px;
+    left: 240px;
+    fill: rgba(255,255,255,.6);
+    width: 32px;
+    height: 32px;
+}
+.container:hover h4 {
+    color: white;
+    
+}
+.container:hover h3 {
+    color: white;
+    
+}
+.goBack {
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: 900;
+    padding-left: 500px;
+}
+.Right {
+    padding: 0;
+    margin: 0;
+    height: 400vh;
+    width: 90vw;
+}
+.all {
+    height: 400vh;
+    width: 100vw;
+    display: flex;
+}
+.left {
+    height: 400vh;
+    width: 10vw;
+    background-color: rgb(51, 47, 47);
+    flex-direction: column;
+    display: flex;
+}
+.all .left img {
+    width: 100%;
+    border-radius: 20px;
+}
+h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    cursor: pointer;
+}
+.item {
+    margin: 20px 10px 20px 10px;
+}
+a {
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+.login {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color: gray;
+}
