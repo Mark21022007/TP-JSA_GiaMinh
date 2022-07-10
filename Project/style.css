@@ -1,0 +1,118 @@
+.All {
+    height: 400vh;
+    width: 100vw;
+    display: flex;
+}
+.left {
+    height: 400vh;
+    width: 10vw;
+    background-color: rgb(51, 47, 47);
+    flex-direction: column;
+    display: flex;
+}
+.right {
+    padding: 0;
+    margin: 0;
+    height: 400vh;
+    width: 90vw;
+    background-color: black;
+}
+.box {
+    background-color: gray;
+    padding: 20px;
+    border-radius: 20px;
+    width: 16%;
+    margin: 0;
+    display: block; 
+    cursor: pointer;
+}
+img {
+    width: 100%;
+    border-radius: 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+.container_mid {
+    display: flex;
+    justify-content: flex-start;
+    gap: 38px;
+    width: 100%;
+}
+.p {
+    color: white;
+    font-family: Calibri;
+    font-weight: 700;
+    padding: 10px;
+}
+.h1 {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    padding: 10px;
+}
+.main {
+    margin: 0;
+    padding: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.top {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mid {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    margin: -8px;
+}
+.login {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color: gray;
+}
+.new_1 {
+    border-radius: 20px;
+    color: white;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+.box_mid {
+    width: 16%;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 20px;
+    width: 16%;
+    margin: 0;
+    display: block; 
+    cursor: pointer;
+}
+h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    cursor: pointer;
+}
+a {
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+.item {
+    margin: 20px 10px 20px 10px;
+}

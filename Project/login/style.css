@@ -1,0 +1,81 @@
+
+.login {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    width: 40%;
+    display: block;
+    margin: 30px auto;
+    border-radius: 150px;
+}
+.F1 {
+    background-color: blue;
+    text-align: center;
+    font-family: calibri;
+    border-radius: 30px;
+    padding: 20px;
+    width: 25%;
+    margin: 20px auto;
+    font-weight: 900;
+    cursor: pointer;
+    color: white;
+}
+.S1 {
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: w;
+}
+.A1 {
+    background-color: black;
+    text-align: center;
+    font-family: calibri;
+    border-radius: 30px;
+    padding: 20px;
+    width: 25%;
+    margin: 20px auto;
+    font-weight: 900;
+    cursor: pointer;
+    color: white;
+}
+.P1 {
+    background-color: green;
+    text-align: center;
+    font-family: calibri;
+    border-radius: 30px;
+    padding: 20px;
+    width: 25%;
+    margin: 20px auto;
+    font-weight: 900;
+    cursor: pointer;
+    color: black;
+}
+a {
+    color: green;
+}
+.bottom {
+    display: flex;
+    margin: auto 20px;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home {
+    background-color: black;
+    text-align: center;
+    font-family: calibri;
+    border-radius: 30px;
+    padding: 20px;
+    width: 25%;
+    font-weight: 900;
+    cursor: pointer;
+    color: white;
+    margin: 0 auto;
+} 
